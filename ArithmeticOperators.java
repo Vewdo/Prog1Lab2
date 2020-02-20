@@ -1,0 +1,33 @@
+/* Arithmetic Operators
+	Anderson, Franceschi
+*/
+
+public class ArithmeticOperators
+{
+	public static void main( String [] args );
+	{
+
+		// Calculate the cost of lunch
+		double salad = 5.95;
+		double water = .89
+		System.out.println( " The cost of lunch is $" + (salad + water) );
+
+		//Calculate your age as of a certain year
+		int targetYear = 2025
+		int birthYear = 2005
+		System.out.println( "Your age is " + targetYear + " is " + (targetYear - birthYear ) );
+
+		// Calculate the total calories of apples
+		int caloriesPerApple = 127;
+		int numberOfApples = 3;
+		System.out.println( "The calories in " + numberOfApples + " apples is " + (caloriesPerApple * numberOfApples ) );
+
+		//calculate miles per gallon
+		double miles = 426.8;
+		double gallons = 15.2;
+		double mileage = miles / gallons;
+		System.out.println( "The mileage is " + mileage + " miles per gallon." );
+
+	}
+
+}
